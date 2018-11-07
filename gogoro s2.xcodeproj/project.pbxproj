@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		291FFC2421931A70003DFB1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291FFC2321931A70003DFB1A /* AppDelegate.swift */; };
+		291FFC2621931A70003DFB1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291FFC2521931A70003DFB1A /* ViewController.swift */; };
+		291FFC2921931A70003DFB1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291FFC2721931A70003DFB1A /* Main.storyboard */; };
+		291FFC2B21931A72003DFB1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291FFC2A21931A72003DFB1A /* Assets.xcassets */; };
+		291FFC2E21931A72003DFB1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291FFC2C21931A72003DFB1A /* LaunchScreen.storyboard */; };
+		291FFC3921931A72003DFB1A /* gogoro_s2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291FFC3821931A72003DFB1A /* gogoro_s2Tests.swift */; };
+		291FFC4421931A72003DFB1A /* gogoro_s2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291FFC4321931A72003DFB1A /* gogoro_s2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		291FFC3521931A72003DFB1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 291FFC1821931A70003DFB1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 291FFC1F21931A70003DFB1A;
+			remoteInfo = "gogoro s2";
+		};
+		291FFC4021931A72003DFB1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 291FFC1821931A70003DFB1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 291FFC1F21931A70003DFB1A;
+			remoteInfo = "gogoro s2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		291FFC2021931A70003DFB1A /* gogoro s2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gogoro s2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		291FFC2321931A70003DFB1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		291FFC2521931A70003DFB1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		291FFC2821931A70003DFB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		291FFC2A21931A72003DFB1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		291FFC2D21931A72003DFB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		291FFC2F21931A72003DFB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291FFC3421931A72003DFB1A /* gogoro s2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gogoro s2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		291FFC3821931A72003DFB1A /* gogoro_s2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gogoro_s2Tests.swift; sourceTree = "<group>"; };
+		291FFC3A21931A72003DFB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291FFC3F21931A72003DFB1A /* gogoro s2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gogoro s2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		291FFC4321931A72003DFB1A /* gogoro_s2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gogoro_s2UITests.swift; sourceTree = "<group>"; };
+		291FFC4521931A72003DFB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		291FFC1D21931A70003DFB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291FFC3121931A72003DFB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291FFC3C21931A72003DFB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		291FFC1721931A70003DFB1A = {
+			isa = PBXGroup;
+			children = (
+				291FFC2221931A70003DFB1A /* gogoro s2 */,
+				291FFC3721931A72003DFB1A /* gogoro s2Tests */,
+				291FFC4221931A72003DFB1A /* gogoro s2UITests */,
+				291FFC2121931A70003DFB1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		291FFC2121931A70003DFB1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				291FFC2021931A70003DFB1A /* gogoro s2.app */,
+				291FFC3421931A72003DFB1A /* gogoro s2Tests.xctest */,
+				291FFC3F21931A72003DFB1A /* gogoro s2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		291FFC2221931A70003DFB1A /* gogoro s2 */ = {
+			isa = PBXGroup;
+			children = (
+				291FFC2321931A70003DFB1A /* AppDelegate.swift */,
+				291FFC2521931A70003DFB1A /* ViewController.swift */,
+				291FFC2721931A70003DFB1A /* Main.storyboard */,
+				291FFC2A21931A72003DFB1A /* Assets.xcassets */,
+				291FFC2C21931A72003DFB1A /* LaunchScreen.storyboard */,
+				291FFC2F21931A72003DFB1A /* Info.plist */,
+			);
+			path = "gogoro s2";
+			sourceTree = "<group>";
+		};
+		291FFC3721931A72003DFB1A /* gogoro s2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				291FFC3821931A72003DFB1A /* gogoro_s2Tests.swift */,
+				291FFC3A21931A72003DFB1A /* Info.plist */,
+			);
+			path = "gogoro s2Tests";
+			sourceTree = "<group>";
+		};
+		291FFC4221931A72003DFB1A /* gogoro s2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				291FFC4321931A72003DFB1A /* gogoro_s2UITests.swift */,
+				291FFC4521931A72003DFB1A /* Info.plist */,
+			);
+			path = "gogoro s2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		291FFC1F21931A70003DFB1A /* gogoro s2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291FFC4821931A72003DFB1A /* Build configuration list for PBXNativeTarget "gogoro s2" */;
+			buildPhases = (
+				291FFC1C21931A70003DFB1A /* Sources */,
+				291FFC1D21931A70003DFB1A /* Frameworks */,
+				291FFC1E21931A70003DFB1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gogoro s2";
+			productName = "gogoro s2";
+			productReference = 291FFC2021931A70003DFB1A /* gogoro s2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		291FFC3321931A72003DFB1A /* gogoro s2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291FFC4B21931A72003DFB1A /* Build configuration list for PBXNativeTarget "gogoro s2Tests" */;
+			buildPhases = (
+				291FFC3021931A72003DFB1A /* Sources */,
+				291FFC3121931A72003DFB1A /* Frameworks */,
+				291FFC3221931A72003DFB1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				291FFC3621931A72003DFB1A /* PBXTargetDependency */,
+			);
+			name = "gogoro s2Tests";
+			productName = "gogoro s2Tests";
+			productReference = 291FFC3421931A72003DFB1A /* gogoro s2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		291FFC3E21931A72003DFB1A /* gogoro s2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291FFC4E21931A72003DFB1A /* Build configuration list for PBXNativeTarget "gogoro s2UITests" */;
+			buildPhases = (
+				291FFC3B21931A72003DFB1A /* Sources */,
+				291FFC3C21931A72003DFB1A /* Frameworks */,
+				291FFC3D21931A72003DFB1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				291FFC4121931A72003DFB1A /* PBXTargetDependency */,
+			);
+			name = "gogoro s2UITests";
+			productName = "gogoro s2UITests";
+			productReference = 291FFC3F21931A72003DFB1A /* gogoro s2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		291FFC1821931A70003DFB1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "林順天";
+				TargetAttributes = {
+					291FFC1F21931A70003DFB1A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					291FFC3321931A72003DFB1A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 291FFC1F21931A70003DFB1A;
+					};
+					291FFC3E21931A72003DFB1A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 291FFC1F21931A70003DFB1A;
+					};
+				};
+			};
+			buildConfigurationList = 291FFC1B21931A70003DFB1A /* Build configuration list for PBXProject "gogoro s2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 291FFC1721931A70003DFB1A;
+			productRefGroup = 291FFC2121931A70003DFB1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				291FFC1F21931A70003DFB1A /* gogoro s2 */,
+				291FFC3321931A72003DFB1A /* gogoro s2Tests */,
+				291FFC3E21931A72003DFB1A /* gogoro s2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		291FFC1E21931A70003DFB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291FFC2E21931A72003DFB1A /* LaunchScreen.storyboard in Resources */,
+				291FFC2B21931A72003DFB1A /* Assets.xcassets in Resources */,
+				291FFC2921931A70003DFB1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291FFC3221931A72003DFB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291FFC3D21931A72003DFB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		291FFC1C21931A70003DFB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291FFC2621931A70003DFB1A /* ViewController.swift in Sources */,
+				291FFC2421931A70003DFB1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291FFC3021931A72003DFB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291FFC3921931A72003DFB1A /* gogoro_s2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291FFC3B21931A72003DFB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291FFC4421931A72003DFB1A /* gogoro_s2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		291FFC3621931A72003DFB1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 291FFC1F21931A70003DFB1A /* gogoro s2 */;
+			targetProxy = 291FFC3521931A72003DFB1A /* PBXContainerItemProxy */;
+		};
+		291FFC4121931A72003DFB1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 291FFC1F21931A70003DFB1A /* gogoro s2 */;
+			targetProxy = 291FFC4021931A72003DFB1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		291FFC2721931A70003DFB1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				291FFC2821931A70003DFB1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		291FFC2C21931A72003DFB1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				291FFC2D21931A72003DFB1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		291FFC4621931A72003DFB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		291FFC4721931A72003DFB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		291FFC4921931A72003DFB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPF86C38WG;
+				INFOPLIST_FILE = "gogoro s2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gogoro.gogoro-s2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		291FFC4A21931A72003DFB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPF86C38WG;
+				INFOPLIST_FILE = "gogoro s2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gogoro.gogoro-s2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		291FFC4C21931A72003DFB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPF86C38WG;
+				INFOPLIST_FILE = "gogoro s2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gogoro.gogoro-s2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gogoro s2.app/gogoro s2";
+			};
+			name = Debug;
+		};
+		291FFC4D21931A72003DFB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPF86C38WG;
+				INFOPLIST_FILE = "gogoro s2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gogoro.gogoro-s2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gogoro s2.app/gogoro s2";
+			};
+			name = Release;
+		};
+		291FFC4F21931A72003DFB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPF86C38WG;
+				INFOPLIST_FILE = "gogoro s2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gogoro.gogoro-s2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gogoro s2";
+			};
+			name = Debug;
+		};
+		291FFC5021931A72003DFB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPF86C38WG;
+				INFOPLIST_FILE = "gogoro s2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gogoro.gogoro-s2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gogoro s2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		291FFC1B21931A70003DFB1A /* Build configuration list for PBXProject "gogoro s2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291FFC4621931A72003DFB1A /* Debug */,
+				291FFC4721931A72003DFB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291FFC4821931A72003DFB1A /* Build configuration list for PBXNativeTarget "gogoro s2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291FFC4921931A72003DFB1A /* Debug */,
+				291FFC4A21931A72003DFB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291FFC4B21931A72003DFB1A /* Build configuration list for PBXNativeTarget "gogoro s2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291FFC4C21931A72003DFB1A /* Debug */,
+				291FFC4D21931A72003DFB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291FFC4E21931A72003DFB1A /* Build configuration list for PBXNativeTarget "gogoro s2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291FFC4F21931A72003DFB1A /* Debug */,
+				291FFC5021931A72003DFB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 291FFC1821931A70003DFB1A /* Project object */;
+}
