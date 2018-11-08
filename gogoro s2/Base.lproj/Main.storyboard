@@ -42,20 +42,20 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="iK3-zu-VvM" kind="showDetail" id="HPH-Qn-fxo"/>
+                                    <segue destination="iK3-zu-VvM" kind="show" id="FvA-qa-14Q"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Tr0-T3-iPn"/>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="nw4-TH-Key"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3194.202898550725" y="37.5"/>
         </scene>
-        <!--Back-->
+        <!--Table View Controller-->
         <scene sceneID="WyE-bn-ZCy">
             <objects>
                 <tableViewController id="iK3-zu-VvM" sceneMemberID="viewController">
@@ -74,11 +74,11 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tm1-1P-psw">
-                                                    <rect key="frame" x="0.0" y="44" width="414" height="296"/>
+                                                    <rect key="frame" x="0.0" y="-5" width="414" height="345"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" image="S1"/>
                                                     <connections>
-                                                        <segue destination="YDV-CE-9Nd" kind="showDetail" id="uAR-U6-kmI"/>
+                                                        <segue destination="YDV-CE-9Nd" kind="show" id="9M2-ms-Ko0"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -92,7 +92,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8g3-pn-18O">
-                                                    <rect key="frame" x="0.0" y="1" width="414" height="338"/>
+                                                    <rect key="frame" x="0.0" y="2" width="414" height="336"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" image="S2"/>
                                                 </button>
@@ -152,7 +152,6 @@
                             <outlet property="delegate" destination="iK3-zu-VvM" id="yOF-3e-Al9"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Back" id="OjG-le-Ntd"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aRh-0b-hGd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -248,7 +247,7 @@ Address: 235新北市中和區員山路316號</string>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="S1 介紹" translatesAutoresizingMaskIntoConstraints="NO" id="wm8-IW-RTl">
-                                <rect key="frame" x="0.0" y="52" width="414" height="198"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
