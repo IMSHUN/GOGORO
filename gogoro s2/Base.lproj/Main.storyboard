@@ -95,6 +95,9 @@
                                                     <rect key="frame" x="0.0" y="2" width="414" height="336"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" image="S2"/>
+                                                    <connections>
+                                                        <segue destination="RjE-Tz-woP" kind="show" id="JrE-9f-AVB"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -257,7 +260,62 @@ Address: 235新北市中和區員山路316號</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6AX-qC-cFY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4905.7971014492759" y="37.5"/>
+            <point key="canvasLocation" x="4917" y="-934"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="90U-Z3-oqB">
+            <objects>
+                <viewController id="RjE-Tz-woP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mZm-81-X2s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="S2 儀表" translatesAutoresizingMaskIntoConstraints="NO" id="nH6-Nx-xUb">
+                                <rect key="frame" x="0.0" y="64" width="414" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="越簡單，越不簡單" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5a-30-qHu">
+                                <rect key="frame" x="0.0" y="301" width="414" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="S2 SuperFast" translatesAutoresizingMaskIntoConstraints="NO" id="maS-Nr-ObD">
+                                <rect key="frame" x="0.0" y="443" width="414" height="244"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6z1-70-OWf">
+                                <rect key="frame" x="0.0" y="357" width="414" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">搶眼無需花俏，而是去除不必要的裝飾與線條。Gogoro S2 獨特的裸把風格與細節提升，以更具穿透力的視覺，展現來自核心的熱血靈魂。無所遮掩，反而更耀眼。
+
+
+
+
+
+
+
+
+Link: https://www.gogoro.com/tw/smartscooter/s-performance/s1/performance/
+
+Phone Number: 0800-365996
+
+Address: 235新北市中和區員山路316號</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Y8i-dc-xo2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RSA-b0-b75" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4915.9420289855079" y="-259.23913043478262"/>
         </scene>
         <!--Item-->
         <scene sceneID="4lL-TT-bwT">
@@ -322,6 +380,8 @@ Address: 235新北市中和區員山路316號</string>
         <image name="S2 Adeventure" width="512" height="512"/>
         <image name="S2 Adeventure Tour Edition" width="512" height="512"/>
         <image name="S2 Cafe Racer" width="512" height="512"/>
+        <image name="S2 SuperFast" width="512" height="512"/>
+        <image name="S2 儀表" width="512" height="512"/>
         <image name="gogoro s2" width="512" height="512"/>
         <image name="s1 輪胎" width="1072" height="1248"/>
     </resources>
